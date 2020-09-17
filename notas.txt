@@ -1,0 +1,24 @@
+****Modlos intalados en este proyecto****
+npm install express connect-flash bcryptjs express-handlebars express-session method-override mongoose passport passport-local
+
+npm install dotenv nodemon handlebars npm-check-updates -D
+
+Para que sirve cada modulo
+***Express - para crear un servidor (framework de servidor)
+***Connect-flash - pra poder enviar mensaje entre las vistas (poder enviar un mensaje de una pagina de un servidor a otra)
+***bcryptjs - algoritmo para poder cifrar (contraseña/seguridad)
+***express-handlebars - crear archivos de vistas combinados
+***express-session - ayudar a guardar datos desde la memoria del servidor y mantener la sesion abierta
+***method-override - poder usar petiones desde formularion metodos put y delete 
+***mongoose - manejar la base de datos de mongodb, proviendo de esquemas de adventencias o resticciones en un modelo de datos.
+***passport - poder autenticar un usuario (asegirar la seguridad).
+***passport-local - oder manterner en forma local.
+
+***dotenv - para poder usar variables de entorno en un unico equipo, usuarios, contraseñas, tokens, etc. (guardar credenciales)
+***nodemon - ayudara a reiniciar/refrescar cada vez que se hagan cambios.
+***handlebars - apoya para evitar problemas (encaso de haber).
+***npm-check-updates - ayudara a checar si hay nuevos modulos o actualizaciones en los modulos instalados.
+*** -D - el gion mas D mayuscula para carar que son dependencias de desarrollo no principales que solo se usr cuando se este desarrando
+
+
+****--Las carpetas con la estructuras del proyecto--****

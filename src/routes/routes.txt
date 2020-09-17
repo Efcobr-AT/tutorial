@@ -1,0 +1,1 @@
+para crear rutas o urls que se tendran en el servidor

@@ -1,0 +1,1 @@
+colocar archivos publicos o estaticos (css, imagenes,fuentes o cualquier otr archivo)
