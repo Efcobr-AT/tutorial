@@ -24,9 +24,7 @@ app.use(express.urlencoded({extended: false}));         //formularios qeu llegen
 // Global variable  -- se crean variables y pueden acceder en todo el proyecto
 
 // Routes  -- es el acceso a las rutas
-app.get('/', (req, res) => {
-    res.render('index');
-})
+app.use(require('./routes/index.routes'));
 
 // Static files  -- archivos que se encuentran dentro de la carpeta public, que no se requiere authenticacion (seguridad)
 app.use(express.static(path.join(__dirname, 'public')));  //aqui esta la carpeta public
