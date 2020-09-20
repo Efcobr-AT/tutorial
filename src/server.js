@@ -29,6 +29,6 @@ app.get('/', (req, res) => {
 })
 
 // Static files  -- archivos que se encuentran dentro de la carpeta public, que no se requiere authenticacion (seguridad)
-app.use(express.static(path.join(__dirname, 'views')));  //aqui esta la carpeta public
+app.use(express.static(path.join(__dirname, 'public')));  //aqui esta la carpeta public
 
 module.exports = app;
