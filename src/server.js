@@ -25,6 +25,7 @@ app.use(express.urlencoded({extended: false}));         //formularios qeu llegen
 
 // Routes  -- es el acceso a las rutas
 app.use(require('./routes/index.routes'));
+app.use(require('./routes/notes.routes'));
 
 // Static files  -- archivos que se encuentran dentro de la carpeta public, que no se requiere authenticacion (seguridad)
 app.use(express.static(path.join(__dirname, 'public')));  //aqui esta la carpeta public
